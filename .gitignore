@@ -1,0 +1,267 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+# .python-version
+
+# pipenv
+#Pipfile.lock
+
+# UV
+#uv.lock
+
+# poetry
+#poetry.lock
+#poetry.toml
+
+# pdm
+#pdm.lock
+#pdm.toml
+.pdm-python
+.pdm-build/
+
+# pixi
+.pixi
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Abstra
+.abstra/
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+
+# Cursor
+.cursorignore
+.cursorindexingignore
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# =============================================================
+# Project-specific: EESD Hindi
+# =============================================================
+
+# Ignore the whole EESD dataset/code drop
+/EESD/
+
+# Agent plan (internal use only)
+AGENT_PLAN*.md
+
+# Model checkpoints (large binary files)
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Training outputs & results directories
+outputs_training_checkpoints/
+results/
+results_after_epoch_*/
+results_final/
+sanity_check_output/
+Outputs_after_misem_upto_epoch_6/
+
+# Logs & loss history
+log.txt
+loss.txt
+src/error_log.txt
+
+# HuggingFace cache
+cache/
+*.cache
+
+
+/notebooks/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+missfont.log
+
+# Archives
+*.zip
+
+# Kaggle
+.kaggle/
+KAGGLE_API_TOKEN
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+
+_archive/
+
+EESD_plan_ahead/
+
+
+Recent_paper_on_Speculative_decoding/
+
+.claude/
+
+.kaggle/
+
+acl.sty
+
+overfit_test.py
+
+professor_meeting_prep.tex
+
+deep_verify.sh              
+DIAGNOSIS.md                
+report.tex
+directory_structure.txt     
+requirements.txt
+Speculative_decoding_recent_paper.pdf
+EESD.pdf
+EESD_plan_ahead
+kaggle_train_bottleneck.py  
+verify_prompts_0_to_7.sh
+kaggle_train.py             
+viva_preparation.tex
+*checkpoints/*
+CLAUDE_CODE_PROMPTS.md
+/EESD/
+Outputs_after_misem_upto_epoch_6/
+project_explaination.pdf
+project_explaination.tex
+outputs_v1/
+outputs_v2/
+outputs-20260408T104702Z-3-001.zip
+submission/*
+results_final_small/*
+correct.*
+report_detailed_claude.*
